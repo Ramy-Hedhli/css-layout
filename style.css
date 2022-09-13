@@ -18,6 +18,7 @@ li {
     font-size: 12pt;
 }
 
+
 h2 {
     text-align: center;
     font-size: 2.125rem;
@@ -27,6 +28,23 @@ h2 {
     font-weight: 300;
     letter-spacing: -.3px;
 }
+
+h3 {
+    font-size: 14pt;
+    color: #747474;
+    font-family: Work Sans, Arial, sans-serif;
+}
+
+h4 {
+    text-align: center;
+    font-size: 20pt;
+    color: black;
+    margin: 1em 0;
+    font-family: Work Sans, Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: -.3px;
+}
+
 
 p {
     font-family: Roboto, Arial, sans-serif;
@@ -64,6 +82,22 @@ footer {
 .section2 {
     background-color: rgb(162, 247, 219);
     display: flex;
+    align-items: flex-start;
+
+}
+
+.BLC {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px 350px;
+    gap: 20px;
+
+}
+
+.bloc {
+    display: flex;
+    background-color: beige;
+    margin: 20px;
     align-items: center;
     flex-direction: column;
 }
@@ -168,30 +202,68 @@ footer {
 
 .section3 {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
+    vertical-align: middle;
 }
 
-.global {
-    font-family: "Work Sans", Arial, sans-serif;
-    font-size: 26px;
-    font-weight: 300;
-    line-height: 33.8px;
-    color: rgb(0, 179, 155);
-    width: 30%;
-    text-align: center;
-}
+.titre3 {
+    color: #00b39b;
+    font-family: Work Sans, Arial, sans-serif;
+    vertical-align: middle;
+    line-height: 2;
 
-.list2 {
-    font-family: Roboto, Arial, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20.8px;
-    color: rgb(61, 131, 223);
-    width: 55%;
 }
 
 .list2 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
+    vertical-align: middle;
+    font-family: Roboto, Arial, sans-serif;
+    color: rgb(61, 131, 223);
+    line-height: 5;
+    width: 70%;
+}
+
+.secAlbum {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.tof:hover {
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.bouton {
+    width: 120px;
+    height: 35px;
+    background-color: #3d83df;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+}
+
+.bouton2 {
+    width: 200px;
+    height: 35px;
+    background-color: #3d83df;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+}
+
+
+.tof1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pied {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
 }
