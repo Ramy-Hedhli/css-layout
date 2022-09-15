@@ -85,23 +85,27 @@ footer {
     background-color: #D7F6F6;
     display: flex;
     align-items: flex-start;
-    position: relative;
-
+    overflow: hidden;
 }
 
 .textA {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
     justify-content: space-between;
     margin-left: 200px;
-
+    position: relative;
+    z-index: 2;
 }
 
-.A1 {
+.GreenT {
+    text-align: left;
+    z-index: 2;
+}
 
-    overflow: hidden;
-    vertical-align: baseline;
+
+.A1 {
+    position: absolute;
+    margin-top: 250px;
 
 }
 
@@ -132,6 +136,10 @@ footer {
     align-content: center;
 }
 
+.parag {
+    font-size: 10pt;
+}
+
 .top {
     display: flex;
     flex-direction: column;
@@ -144,6 +152,7 @@ footer {
 .logo {
     width: 250px;
     vertical-align: middle;
+    z-index: 3;
 }
 
 .dep {
