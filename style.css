@@ -80,23 +80,53 @@ footer {
 }
 
 .section2 {
-    background-color: rgb(162, 247, 219);
+    margin-left: -200px;
+    margin-right: -200px;
+    background-color: #D7F6F6;
     display: flex;
     align-items: flex-start;
+    position: relative;
 
 }
 
-.BLC {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 350px 350px;
-    gap: 20px;
+.textA {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-left: 200px;
+
+}
+
+.A1 {
+
+    overflow: hidden;
+    vertical-align: baseline;
+
+}
+
+.BLC1 {
+    margin-top: 50px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.BLC2 {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .bloc {
     display: flex;
     background-color: white;
-    margin: 20px;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    padding: 10px;
     align-items: center;
     flex-direction: column;
     align-content: center;
@@ -130,7 +160,7 @@ footer {
     gap: 15px;
     display: none;
     position: absolute;
-    right: 40px;
+    right: 5px;
 }
 
 .dep:hover .menuC {
